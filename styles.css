@@ -1,0 +1,172 @@
+/* SUMMARY
+1. GLOBAL
+2. SECTIONS
+3. RESPONSIVE
+*/
+
+
+/*** 1. GLOBAL ***/
+
+/* Variables
+			============================= */
+:root {
+
+	/* Colors */
+	--new-black: #071629;
+	--new-purple: #C271FF;
+
+	/*Fonts*/
+	--font-Source: "Source Sans Pro", sans-serif;
+	--font-size-12px: 1.2rem;
+	--font-size-14px: 1.4rem;
+	--font-size-16px: 1.6rem;
+	--font-size-18px: 1.8rem;
+
+}
+
+/* Base
+					============================= */
+
+html {
+	scroll-behavior: smooth;
+	font-size: 10px;
+	/* For rem */
+}
+
+body {
+	font-family: var(--font-Source) !important;
+}
+
+a:hover {
+	color: var(--new-purple) !important;
+}
+
+h1 {
+	font-size: 61px !important;
+	line-height: 76px !important;
+}
+
+h2 {
+	font-size: 3.2rem !important;
+	line-height: 4rem !important;
+}
+
+.btn {
+	width: 162px;
+	height: 44px;
+	background-color: var(--new-purple) !important;
+	border-color: var(--new-purple) !important;
+	font-weight: 600 !important;
+	font-size: var(--font-size-14px) !important;
+	filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.btn:hover,
+.btn:active {
+	opacity: 0.9;
+}
+
+.container {
+	max-width: 1000px !important;
+}
+
+/*** 2. SECTIONS ***/
+
+/* Header
+			============================= */
+
+.header {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-image: url("images/pic_1.jpg");
+	background-color: var(--new-black);
+	background-position-x: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar-line,
+.navbar-lines {
+	display: block;
+	height: 2px;
+	background-color: var(--navbar-line-color);
+	border-radius: 2px;
+}
+
+.navbar-line {
+	width: 13px;
+}
+
+.line-1 {
+	width: 18px;
+}
+
+.line-3 {
+	width: 20px;
+}
+
+.nav-link {
+	font-size: var(--font-size-12px);
+	line-height: 1.5rem;
+}
+
+/* Header
+			============================= */
+
+
+.section-hero {
+	height: auto;
+	margin-top: 176px;
+}
+
+.list-group-item {
+	font-size: var(--font-size-16px);
+	line-height: 2rem;
+}
+
+.section-hero_subtitle {
+	margin-top: 150px;
+	margin-bottom: 87px;
+}
+
+.section-hero_subtitle-span {
+	color: var(--new-purple);
+}
+
+.section-hero_pros {
+	margin-bottom: 96px;
+}
+
+.section-hero_pros-name {
+	font-size: var(--font-size-18px);
+	font-weight: 900;
+	line-height: 2.7rem;
+}
+
+.section-hero_pros-description {
+	width: 150px;
+	font-size: var(--font-size-16px);
+	line-height: 2.4rem;
+}
+
+/*** 3. RESPONSIVE ***/
+
+/* Tablet
+			============================= */
+
+@media (min-width: 768px) {
+
+	/*** 2. SECTIONS ***/
+
+	h1 {
+		font-size: 120px !important;
+		line-height: 150px !important;
+	}
+	/* Header
+			============================= */
+
+	.section-hero_subtitle {
+		margin-top: 168px;
+	}
+}
