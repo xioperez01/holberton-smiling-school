@@ -228,6 +228,37 @@ h2 {
 	line-height: 27px;
 }
 
+/* Section Free
+			============================= */
+
+.section-free {
+	width: 100%;
+	height: auto;
+	background-color: var(--new-black);
+	padding-top: 75px;
+	padding-bottom: 89px;
+}
+
+.section-free_grid {
+	margin-top: 50px;
+}
+
+.dot {
+	margin-bottom: 50px;
+}
+
+.dot-title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.dot-description {
+	width: 221px;
+	font-size: 14px;
+	line-height: 26px;
+}
+
 /*** 3. RESPONSIVE ***/
 
 /* Medium ≥768px
@@ -276,6 +307,21 @@ h2 {
 		height: 246px;
 	}
 
+	/* Section Free
+			============================= */
+
+	.section-free {
+		padding-bottom: 62px;
+	}
+
+	.section-free_grid {
+		margin-top: 58px;
+	}
+
+	.dot {
+		margin-bottom: 52px;
+	}
+
 }
 
 /* Large ≥992px
@@ -304,6 +350,13 @@ h2 {
 	.carousel-control-prev,
 	.carousel-control-next {
 		height: 178px;
+	}
+
+	/* Section Free
+			============================= */
+
+	.section-free {
+		padding-bottom: 52px;
 	}
 
 }
