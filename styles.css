@@ -259,6 +259,24 @@ h2 {
 	line-height: 26px;
 }
 
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: var(--new-black);
+	padding: 50px 0 34px 0;
+}
+
+.footer_icons {
+	font-size: 30px;
+	margin: 45px 0;
+}
+
+.footer .span {
+	opacity: 0.35;
+	font-size: 12px;
+	line-height: 15px;
+}
+
 /*** 3. RESPONSIVE ***/
 
 /* Medium ≥768px
