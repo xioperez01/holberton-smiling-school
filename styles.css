@@ -14,6 +14,7 @@
 	/* Colors */
 	--new-black: #071629;
 	--new-purple: #C271FF;
+	--text-card-color: rgba(7, 22, 41, 0.501584);
 
 	/*Fonts*/
 	--font-Source: "Source Sans Pro", sans-serif;
@@ -181,7 +182,51 @@ h2 {
 	width: 29px !important;
 }
 
+/* Section Popular
+			============================= */
 
+.section-popular {
+	width: auto;
+	height: 624px;
+	padding-top: 87px;
+}
+
+.section-popular h2 {
+	color: var(--new-black);
+}
+
+.section-popular_carousel {
+	margin-top: 75px;
+}
+
+.section-popular_carousel_card {
+	width: 255px;
+	height: 335px;
+}
+
+.card_img-play {
+	top: 45px;
+	left: 96px;
+}
+
+.card-title {
+	color: var(--new-black);
+	font-size: var(--font-size-16px);
+	line-height: 20px;
+}
+
+.card-text {
+	color: var(--text-card-color);
+	font-size: var(--font-size-14px);
+	line-height: 24px;
+}
+
+.card-name {
+	color: var(--new-purple);
+	font-size: var(--font-size-14px);
+	font-weight: 600;
+	line-height: 27px;
+}
 
 /*** 3. RESPONSIVE ***/
 
@@ -279,4 +324,12 @@ h2 {
 	.section-carousel_text {
 		width: 730px;
 	}
+
+	/* Section Popular
+			============================= */
+
+	.carousel-iner {
+		max-width: 90%;
+	}
+
 }
