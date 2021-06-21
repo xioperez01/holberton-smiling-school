@@ -19,6 +19,7 @@
 
 	/*Fonts*/
 	--font-Source: "Source Sans Pro", sans-serif;
+	--font-Coiny: 'Coiny', cursive;
 	--font-size-12px: 1.2rem;
 	--font-size-14px: 1.4rem;
 	--font-size-16px: 1.6rem;
@@ -124,6 +125,12 @@ h2 {
 	padding-bottom: 89px;
 }
 
+/** Courses **/
+
+.header-courses {
+	background-image: url("images/pic_3.jpg");
+}
+
 /* Section Hero
 			============================= */
 
@@ -194,6 +201,25 @@ h2 {
 	font-size: 12px;
 	line-height: 15px;
 }
+
+/** Courses **/
+
+.section-hero-courses {
+	margin-top: 35px;
+	padding-bottom: 25px;
+}
+
+.section-hero-courses_title {
+	max-width: 480px;
+	font-size: 32px !important;
+	line-height: 35px !important;
+	font-family: var(--font-Coiny);
+}
+
+.section-hero-courses_title_span {
+	color: var(--color-primary);
+}
+
 
 /* Section Carousel
 			============================= */
