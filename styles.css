@@ -12,8 +12,9 @@
 :root {
 
 	/* Colors */
-	--new-black: #071629;
-	--new-purple: #C271FF;
+	--background-black: #071629;
+	--color-primary: #C271FF;
+	--color-check: #82D24F;
 	--text-card-color: rgba(7, 22, 41, 0.501584);
 
 	/*Fonts*/
@@ -41,7 +42,7 @@ body {
 }
 
 a:hover {
-	color: var(--new-purple) !important;
+	color: var(--color-primary) !important;
 }
 
 
@@ -58,8 +59,8 @@ h2 {
 .btn {
 	width: 162px;
 	height: 44px;
-	background-color: var(--new-purple) !important;
-	border-color: var(--new-purple) !important;
+	background-color: var(--color-primary) !important;
+	border-color: var(--color-primary) !important;
 	font-weight: 600 !important;
 	font-size: var(--font-size-14px) !important;
 	filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
@@ -78,7 +79,7 @@ h2 {
 .header {
 	width: 100%;
 	height: auto;
-	background-color: var(--new-black);
+	background-color: var(--background-black);
 	background-position-x: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -144,7 +145,7 @@ h2 {
 }
 
 .section-hero_subtitle-span {
-	color: var(--new-purple);
+	color: var(--color-primary);
 }
 
 .section-hero_pros-name {
@@ -164,11 +165,35 @@ h2 {
 .section-hero_question {
 	width: 289px;
 	margin-bottom: 50px;
-}
-
-.section-hero_question-text {
 	font-size: var(--font-size-24px);
 	line-height: 30px;
+}
+
+.section-hero-price_p-month {
+	opacity: 0.5;
+	font-size: var(--font-size-12px);
+	line-height: 15px;
+}
+
+.section-hero-price_table {
+	margin-top: 50px;
+	font-size: 18px;
+	line-height: 34px;
+}
+
+.section-hero-price_table-td {
+	border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+
+.section-hero-price_table-span {
+	font-size: 28px;
+	color: var(--color-check);
+}
+
+.section-hero-price_table-head2 {
+	font-size: 12px;
+	line-height: 15px;
 }
 
 /* Section Carousel
@@ -179,7 +204,7 @@ h2 {
 	height: auto;
 	padding-top: 68px;
 	padding-bottom: 103px;
-	background-color: var(--new-purple);
+	background-color: var(--color-primary);
 }
 
 .section-carousel_img {
@@ -219,7 +244,7 @@ h2 {
 }
 
 .section-popular h2 {
-	color: var(--new-black);
+	color: var(--background-black);
 }
 
 .section-popular_carousel {
@@ -237,7 +262,7 @@ h2 {
 }
 
 .card-title {
-	color: var(--new-black);
+	color: var(--background-black);
 	font-size: var(--font-size-16px);
 	line-height: 20px;
 }
@@ -249,7 +274,7 @@ h2 {
 }
 
 .card-name {
-	color: var(--new-purple);
+	color: var(--color-primary);
 	font-size: var(--font-size-14px);
 	font-weight: 600;
 	line-height: 27px;
@@ -261,7 +286,7 @@ h2 {
 .section-free {
 	width: 100%;
 	height: auto;
-	background-color: var(--new-black);
+	background-color: var(--background-black);
 	padding-top: 75px;
 	padding-bottom: 89px;
 }
@@ -289,7 +314,7 @@ h2 {
 .footer {
 	width: 100%;
 	height: auto;
-	background-color: var(--new-black);
+	background-color: var(--background-black);
 	padding: 50px 0 34px 0;
 }
 
@@ -305,6 +330,23 @@ h2 {
 }
 
 /*** 3. RESPONSIVE ***/
+
+/* Small ≥576px
+			============================= */
+
+@media (min-width: 576px) {
+
+	/*** 2. SECTIONS ***/
+
+	/* Section Hero
+			============================= */
+
+	/** Price **/
+
+	.section-hero-price {
+		margin-top: 240px;
+	}
+}
 
 /* Medium ≥768px
 			============================= */
@@ -327,8 +369,31 @@ h2 {
 	/* Section Hero
 			============================= */
 
+	/** Homepage **/
+
 	.section-hero_subtitle {
 		margin-top: 168px;
+	}
+
+	/** Price **/
+
+	.section-hero-price {
+		margin-top: 196px;
+	}
+
+	.section-hero_question {
+		width: 385px;
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.smile {
+		width: 37px;
+		height: 30px;
+	}
+
+	.smileschool {
+		width: 200px;
 	}
 
 	/* Section Carousel
