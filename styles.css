@@ -185,7 +185,6 @@ h2 {
 	border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-
 .section-hero-price_table-span {
 	font-size: 28px;
 	color: var(--color-check);
@@ -311,6 +310,33 @@ h2 {
 	line-height: 26px;
 }
 
+/* Section F.A.Q
+			============================= */
+
+.section-faq {
+	width: 100%;
+	height: auto;
+	margin-top: 74px;
+}
+
+.section-faq_title {
+	font-size: 60px !important;
+	line-height: 75px !important;
+}
+
+.section-faq_grid {
+	margin: 74px 0 108px 0;
+}
+
+.section-faq_grid_card {
+	width: 340px;
+	height: 242px;
+	margin-bottom: 146px;
+}
+
+/* Footer
+			============================= */
+
 .footer {
 	width: 100%;
 	height: auto;
@@ -432,6 +458,19 @@ h2 {
 		margin-bottom: 52px;
 	}
 
+	/* Section F.A.Q
+			============================= */
+
+	.section-faq_grid {
+		margin-bottom: 110px;
+	}
+
+	.section-faq_grid_card {
+		width: 270px;
+		height: 314px;
+		margin-bottom: 74px;
+	}
+
 }
 
 /* Large ≥992px
@@ -469,6 +508,17 @@ h2 {
 		padding-bottom: 52px;
 	}
 
+	/* Section F.A.Q
+			============================= */
+
+	.section-faq_grid {
+		margin-bottom: 127px;
+	}
+
+	.section-faq_grid_card {
+		width: 350px;
+		height: 242px;
+	}
 }
 
 /* Extra large ≥1200px
