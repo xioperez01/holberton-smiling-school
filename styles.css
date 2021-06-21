@@ -23,6 +23,7 @@
 	--font-size-16px: 1.6rem;
 	--font-size-18px: 1.8rem;
 	--font-size-22px: 2.2rem;
+	--font-size-24px: 2.4rem;
 
 }
 
@@ -42,6 +43,7 @@ body {
 a:hover {
 	color: var(--new-purple) !important;
 }
+
 
 h1 {
 	font-size: 61px !important;
@@ -76,14 +78,11 @@ h2 {
 .header {
 	width: 100%;
 	height: auto;
-	padding-bottom: 96px;
-	background-image: url("images/pic_1.jpg");
 	background-color: var(--new-black);
 	background-position-x: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 
 .navbar-line,
 .navbar-lines {
@@ -110,6 +109,20 @@ h2 {
 	line-height: 1.5rem;
 }
 
+/** Homepage **/
+
+.header-homepage {
+	padding-bottom: 96px;
+	background-image: url("images/pic_1.jpg");
+}
+
+/** Pricing **/
+
+.header-pricing {
+	background-image: url("images/pic_2.jpg");
+	padding-bottom: 89px;
+}
+
 /* Section Hero
 			============================= */
 
@@ -117,6 +130,8 @@ h2 {
 	height: auto;
 	margin-top: 176px;
 }
+
+/** Homepage **/
 
 .list-group-item {
 	font-size: var(--font-size-16px);
@@ -142,6 +157,18 @@ h2 {
 	width: 150px;
 	font-size: var(--font-size-16px);
 	line-height: 2.4rem;
+}
+
+/** Pricing **/
+
+.section-hero_question {
+	width: 289px;
+	margin-bottom: 50px;
+}
+
+.section-hero_question-text {
+	font-size: var(--font-size-24px);
+	line-height: 30px;
 }
 
 /* Section Carousel
