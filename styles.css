@@ -360,6 +360,58 @@ h2 {
 	margin-bottom: 146px;
 }
 
+/* Section Search
+			============================= */
+
+.section-search {
+	width: 100%;
+	height: auto;
+	background-color: var(--color-primary);
+}
+
+.section-search_form {
+	padding-top: 23px;
+}
+
+.section-search_form_label {
+	font-size: var(--font-size-12px);
+	line-height: 15px;
+}
+
+.section-search_form_input {
+	height: 51px !important;
+	background-color: #d195ff !important;
+	border-radius: 0 !important;
+	font-size: 23px !important;
+	line-height: 29px !important;
+}
+
+.section-search_form input {
+	padding-left: 42px;
+}
+
+.section-search_form input::placeholder {
+	color: #ffffff;
+}
+
+.search-icon {
+	font-size: 20px;
+}
+
+.section-search_form select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+}
+
+.arrow-icon {
+	font-size: 13px;
+	margin: 20px;
+	right: 22px;
+}
+
+
 /* Footer
 			============================= */
 
@@ -398,6 +450,12 @@ h2 {
 	.section-hero-price {
 		margin-top: 240px;
 	}
+
+	/** Courses **/
+
+.section-hero-courses {
+	padding-bottom: 50px;
+}
 }
 
 /* Medium ≥768px
