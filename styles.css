@@ -220,7 +220,6 @@ h2 {
 	color: var(--color-primary);
 }
 
-
 /* Section Carousel
 			============================= */
 
@@ -411,6 +410,25 @@ h2 {
 	right: 22px;
 }
 
+/* Section videos
+			============================= */
+
+.section-videos {
+	width: auto;
+	height: auto;
+	padding-bottom: 75px;
+}
+
+.section-videos_span {
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(7, 22, 41, 0.3);
+}
+
+.section-videos_grid_card {
+	width: 345px !important;
+	height: 335px !important;
+}
 
 /* Footer
 			============================= */
@@ -453,9 +471,9 @@ h2 {
 
 	/** Courses **/
 
-.section-hero-courses {
-	padding-bottom: 50px;
-}
+	.section-hero-courses {
+		padding-bottom: 50px;
+	}
 }
 
 /* Medium ≥768px
@@ -555,6 +573,13 @@ h2 {
 		margin-bottom: 74px;
 	}
 
+	/* Section videos
+			============================= */
+
+	.section-videos_grid_card {
+		width: 210px !important;
+		height: 335px !important;
+	}
 }
 
 /* Large ≥992px
@@ -602,6 +627,14 @@ h2 {
 	.section-faq_grid_card {
 		width: 350px;
 		height: 242px;
+	}
+
+	/* Section videos
+			============================= */
+
+	.section-videos_grid_card {
+		width: 255px !important;
+		height: 335px !important;
 	}
 }
 
